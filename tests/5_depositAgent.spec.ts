@@ -30,6 +30,5 @@ test("System deposits 2000 Tk to activated agent", async({ page })=>{
     await depositPage.depositeAgent(agentPhone, 2000);
     
     await depositPage.verifyDepositSuccess();
-    console.log("Agent Phone:",agentPhone);
 
 })

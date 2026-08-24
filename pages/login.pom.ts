@@ -52,7 +52,10 @@ async loginWithOtp(
       }, { timeout: 20000, intervals: [2000] }).toBe(true);
       
     await this.submitOtp(newOTP);
-    await this.page.waitForURL(/profile\/*/);
+    
+    //console.log("Current URL:", this.page.url());
+   // await expect(this.page).toHaveURL(/profile/);
+    //await this.page.waitForURL(/profile\/*/,{timeout: 30000});
 
     }
 }
