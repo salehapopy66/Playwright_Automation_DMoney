@@ -40,6 +40,7 @@ The main end-to-end scenario follows these steps in order:
 - Give the following command: `npx playwright test`
 
 ## Automation Script Report
+Screenshot of testcases run successfully is attached
 
 <img width="851" height="594" alt="run_success" src="https://github.com/user-attachments/assets/8f9e0a0d-1695-4bc6-b156-23ab6b2c4b90" />
 
