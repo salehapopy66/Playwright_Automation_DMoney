@@ -12,7 +12,7 @@ DMoney Portal is a role-based digital-wallet practice application used to test a
 - **Agent** — checks the available balance and deposits money to a Customer.
   This project validates the Agent onboarding and transaction workflow using **Playwright + TypeScript**.
 
-  ## Test scenario
+## Test scenario
 
 The main end-to-end scenario follows these steps in order:
 
@@ -33,4 +33,10 @@ The main end-to-end scenario follows these steps in order:
 | System deposit | A BDT 2,000 deposit to the Agent completes successfully. |
 | Balance assertion | The Agent dashboard or statement shows BDT 2,000.00, assuming the starting balance is zero and no other transactions affect the account. |
 | Customer deposit | The Agent can deposit BDT 500 to an existing eligible Customer and sees a successful transaction confirmation.
+
+## Run the Project
+Clone this project
+Open cmd in the root folder.
+Give the following command: npx playwright test
+
 
